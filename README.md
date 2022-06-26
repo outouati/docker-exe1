@@ -1,11 +1,11 @@
-# docker-exo01do
+# docker-exe1do
 #####
-# Creer un repo github nommé **docker-exo01**
+# Creer un repo github nommé **docker-exe1**
 ## *** public, le fichiers (README.md , .gitignore valable pour le langage Python, une License MIT
 # Faire un git clone dans votre directory project local
-git clone https://github.com/outouati/docker-exo01.git
+git clone https://github.com/outouati/docker-exe1.git
 # repertoire de travail
-cd docker-exo01
+cd docker-exe1
 # commande docker run etre en interactif et avec un tty pour le display le container nommé **myalpes**
 # creer un volume /MountPoint image doit etre alpine passer la commande /bin/ash
 docker run -it --name myalpes -v /MountPoint alpine /bin/ash
@@ -23,7 +23,7 @@ cat docker6exo01.tar | docker import - alpine:v1
 docker history myalpine:v12
 # mettez cette image dans docker hub sous votre compte docker hub
 # authentification login et password
-docker login -u outouati -p m@yate12CPI16
+docker login -u outouati -p passwrd
 # taguer l'image 
 docker image tag myalpine:v12 outouati/myalpine:v12
 # pousser l'image sur mon compte socker
